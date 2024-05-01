@@ -1,0 +1,32 @@
+pipeline
+{
+   agent any
+   tools
+   {
+       maven 'Maven_Home'
+   }
+   stages
+   {
+      stage('Welcome stage')
+      {
+         echo 'Welcome to pipeline'
+      }
+      stage('Clean stage')
+      {
+         bat 'mvn clean'
+      }
+      stage('Build stage')
+      {
+         bat 'mvn install'
+      }
+      stage('Success stage')
+      {
+         echo 'Successfully completed'
+      }
+   }
+ }
+      
+      
+         
+       
+   
