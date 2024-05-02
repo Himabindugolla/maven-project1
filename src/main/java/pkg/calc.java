@@ -13,6 +13,10 @@ public class calc {
 	{
 		return a*b;
 	}
+	public void show()
+	{
+		System.out.println('Hello world')
+	}
 	
 
 	public static void main(String[] args) {
@@ -20,6 +24,7 @@ public class calc {
 	    System.out.println("sum is"+cal.sum(20,10));
 	    System.out.println("diff is"+cal.diff(20,10));
 	    System.out.println("mul is"+cal.mul(20,10));
+	    cal.show();
 		// TODO Auto-generated method stub
 
 	}
