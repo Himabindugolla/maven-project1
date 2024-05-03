@@ -50,6 +50,13 @@ pipeline
             echo 'Successfully final stage completed'
          }
       }
+       stage('java version stage')
+      {
+         steps
+         {
+            bat 'java --version'
+         }
+      }
    }
  }
       
