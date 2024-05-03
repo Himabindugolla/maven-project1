@@ -16,7 +16,7 @@ public class calc {
 	public void show()
 	{
 		System.out.println("Hello world");
-		System.out.println("Hello world i am Hima Bindu Golla");
+		System.out.println("Hello world I am Hima Bindu Golla");
 	}
 	
 
