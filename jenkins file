@@ -36,6 +36,13 @@ pipeline
             echo 'Successfully completed'
          }
       }
+      stage('final stage')
+      {
+         steps
+         {
+            echo 'Successfully final stage completed'
+         }
+      }
    }
  }
       
